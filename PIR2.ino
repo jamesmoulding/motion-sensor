@@ -1,4 +1,4 @@
-// Uses a PIR sensor to detect movement, buzzes a buzzer
+// Uses a PIR sensor to detect movement
 
 
 int inputPin = 2;               // choose the input pin (for PIR sensor)
