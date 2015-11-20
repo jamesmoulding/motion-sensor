@@ -4,7 +4,7 @@ import time
 
 mqttc = mqtt.Client(client_id="1596")
 mqttc.username_pw_set("YOUR_OPENSENSORS_USERNAME", password="YOUR_DEVICE_PASSWORD")
-mqttc.connect("opensensors.io")
+mqttc.connect("mqtt.opensensors.io")
 
 ser = serial.Serial('/dev/ttyACM0', 9600, timeout=5)  # open first serial port
 while True:
